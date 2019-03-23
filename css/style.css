@@ -1,0 +1,9 @@
+/* NAVBAR */
+#main-navbar a{
+    border-bottom: 5px solid #f8f9fa;
+    text-transform: uppercase;
+}
+#main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: black;
+    transition: border-color 500ms;
+}
