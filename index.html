@@ -35,11 +35,27 @@
             </div>
         </div>
     </nav>
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5">
+        <div class="dark-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center text-white">
+                        <img src="img/profile.png" class="img-thumbnail rounded-circle shadow-lg w-25" tabindex="0" data-toggle="popover" data-trigger="hover" title="Hello World!" data-content="Welcome to My Personal Website.">
+                        <h3 class="display-3">My Name is <strong>Supardi</strong></h3>
+                        <h4 class="display-5">I'm Web Developer and Administrator</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script>
-    
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
     </script>
   </body>
 </html>
