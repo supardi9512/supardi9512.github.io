@@ -28,6 +28,6 @@
     min-height: 600px;
 }
 /* EDUCATION */
-#education .fa-globe:hover{
+#education i.fa-globe:hover{
     color: #538fff;
 }
