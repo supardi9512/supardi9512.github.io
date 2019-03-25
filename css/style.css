@@ -27,3 +27,7 @@
     width: 100%;
     min-height: 600px;
 }
+/* EDUCATION */
+#education .fa-globe:hover{
+    color: #538fff;
+}
