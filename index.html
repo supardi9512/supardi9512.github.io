@@ -7,6 +7,7 @@
     <link rel="icon" href="img/favicon.png" type="png">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/zoomify.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head> 
   <body>
@@ -134,8 +135,9 @@
                             <div class="timeline">
                                 <div class="container-timeline left">
                                   <div class="content">
-                                    <h2>2017</h2>
-                                    <p>Lorem ipsum..</p>
+                                    <h5 class="text-muted text-right">18 Oktober 2018</h5>
+                                    <h3>Seminar Math and Artificial Intelligence</h3>
+                                    <img src="img/sert_seminar_2018_10_18.jpg" class="img-thumbnail w-80 mb-3 zoomify-effect">
                                   </div>
                                 </div>
                                 <div class="container-timeline right">
@@ -163,11 +165,28 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/zoomify.min.js"></script>
     <script>
         $(function () {
             $('[data-toggle="popover"]').popover()
         })
-        
+        $('.zoomify-effect').zoomify({
+            // animation duration
+            duration: 200,
+            // easing effect
+            easing:   'linear',
+            // zoom scale
+            // 1 = fullscreen
+            scale: 1,
+            // animation duration
+            duration: 200,
+            // easing effect
+            easing:   'linear',
+            // zoom scale
+            // 1 = fullscreen
+            scale:    0.9
+        });
+
     </script>
   </body>
 </html>
