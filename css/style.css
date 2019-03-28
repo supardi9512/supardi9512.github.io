@@ -174,3 +174,10 @@
       left: 0%;
     }
   }
+/* FOOTER */
+#footer i:hover{
+  color: #538fff;
+}
+#footer a{
+  text-decoration: none;
+}
