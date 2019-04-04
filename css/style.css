@@ -38,23 +38,22 @@
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
 }
 /* EXPERIENCE */
-#experience a{
+#experience .nav-pills a{
     border-bottom: 5px solid #f8f9fa;
-    border-right: 5px solid #f8f9fa;
+    border-top: 5px solid #f8f9fa;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
 }
-#experience a:hover{
-    border-bottom-color: black;
-    transition: border-color 500ms;
-    background-color: #f8f9fa;
-    color: #000;
+#experience .nav-pills a:hover{
+    transition: background-color 500ms;
+    background-color: #000;
+    color: #FFF;
 }
-#experience .active{
+#experience .nav-pills .active{
     border-right-color: black;
     transition: border-color 500ms;
-    background-color: #f8f9fa;
-    color: #000;
+    background-color: #000;
+    color: #FFF;
 }
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
